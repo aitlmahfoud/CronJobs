@@ -3,14 +3,14 @@ About ??
 
 	Hi EveryOne.
 
-	Have you thinking before how cronJobs works..., if for exemple i said you have N Tasks to be executed periodicly (every day, just one      time.....)
+	Have you thinking before how cronJobs works..., if for exemple i said you have N Tasks to be executed periodicly (every day, just one time.....)
 	how can you implement that, what's the algorithm behind...
 
  ++ in Linux Operating system this is the algorithm that implemented :
 
 		1 . On start-up, look for a file named .crontab in the home directories of all account holders.
 		2 . For each crontab file found, determine the next time in the future that each command is to be run.
-	  3 . Place those commands on the Franta-Maly event list with their corresponding time and their "five field" time specifier.
+	        3 . Place those commands on the Franta-Maly event list with their corresponding time and their time specifier.
 		4 . Enter main loop:
 			A . Examine the task entry at the head of the queue, compute how far in the future it is to be run.
 			B . Sleep for that period of time.

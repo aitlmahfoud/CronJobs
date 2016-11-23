@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="extcos-0.4b-all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/extcos-0.4b-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-simple-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
